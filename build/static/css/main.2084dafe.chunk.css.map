@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/component/friends.moduls.css"],"names":[],"mappings":"AAAA,QACI,UAAW,CACX,WAAY,CACZ,sBACJ","file":"main.2084dafe.chunk.css","sourcesContent":[".status{\r\n    width: 20px;\r\n    height: 20px;\r\n    background-color: green;\r\n}"]}
