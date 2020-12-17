@@ -27,11 +27,9 @@ export default function App() {
   likes = {users.stats.likes} 
   />
 
-  <Statistic 
-  docx ={stat[0].percentage}
-  mp3 ={stat[2].percentage}
-  pdf ={stat[1].percentage}
-  mp4 ={stat[3].percentage}
+            <Statistic
+                title={''}
+                stat={stat}
   />
 
         <FriendsList items={friends} />

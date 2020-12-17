@@ -2,11 +2,13 @@ import PropTypes from 'prop-types';
 
 export default function TableRow(props){
     return(
-      <div>
-      <td>{props.type}</td>
-      <td>{props.amount}</td>
-      <td>{props.currency}</td>
-      </div>
+    
+      <tr key = {props.id} className="item">
+        <td>{props.type}</td>
+        <td>{props.amount}</td>
+        <td>{props.currency}</td>
+      </tr>  
+    
       
     )
 }

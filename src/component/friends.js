@@ -4,11 +4,13 @@ import './friends.moduls.css';
 
 export default function Friends (props){
  return (
-   <div>
-  <span className="status" style={{background: props.isOnline?'green':'red'}}></span>
-  <img className="avatar" src={props.avatar} alt={props.name} width="48" />
-  <p className="name"> {props.name} </p>
-  </div>
+   <>
+     <li key = {props.id} className="item">
+       <span className="status" ></span>
+       <img className="avatar" src={ props.avatar} alt="" width="48" />
+       <p className="name">{ props.name}</p>    
+     </li>  
+    </>
  ) ;
 }  
 
